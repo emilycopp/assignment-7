@@ -11,14 +11,99 @@ body {
 	margin: 0;
 }
 
+header {
+	margin: 0;
+}
+
+h1 {
+	color: #512200;
+	font-weight: bold;
+	font-size: 36pt;
+	text-align: center;
+	display: block;
+	position: relative;
+	bottom: 85px;
+	margin: 0;
+}
+
 .masthead {
 	background-image: url("../images/beetle.svg"), url("../images/beetle.svg"), url("../images/masthead-bg.png");
-	background-size: 75px auto, 75px auto, 200px auto;
+	background-size: 55px auto, 55px auto, 94.5px auto;
 	padding-top: 6em;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-position: left 10px, right 10pt, left top;
 }
 
+.banner {
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+}
+
+nav {
+	background-color: #512200;
+	opacity: 0.45;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav a {
+	color: #fff;
+}
+
+.banner-text {
+	font-size: 15pt;
+	font-style: italic;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	bottom: 4em;
+	text-shadow: 2px 2px 2px #000;
+}
+
 .sqr {
 	width: 50%
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+	.box {
+	background-color: #3B3A33;
+	padding: 1em;
+	text-align: center;
+}
+
+.btn {
+	width: 100px;
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	border-radius: 15px;
+	color: #fff;
+	background-color: #6FC000;
+	background-image: linear-gradient(to bottom, #6FC000, #388200);
+}
+
+.btn:hover {
+	background-color: #388200;
+	background-image: linear-gradient(to bottom, #388200, #214D00)
 }
