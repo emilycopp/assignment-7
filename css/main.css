@@ -139,4 +139,14 @@ nav a {
 	bottom: 5%;
 	box-shadow: 2px 2px 2px #000;
 }
+footer {
+	background-image: url("../images/beetle.svg");
+	background-color: rgba( 81,34,0, 0.5);
+	background-size: 30px auto;
+	padding-bottom: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	clear: both;
 }
+
+
